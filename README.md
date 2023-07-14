@@ -1,4 +1,4 @@
-# Paused Automation Notification with Cloud Page
+# Paused Automation Notification with CloudPage
 
 ## Use Case
 Imagine you are working on an automation task that requires pausing at certain points. However, due to distractions or other responsibilities, you forget to reactivate the automation after resuming your tasks. As a result, the automation remains inactive and continues to go unnoticed for an extended period of time. This lack of activity adversely affects the integrity of your data, causing delays and potential errors in your workflow.
@@ -22,7 +22,7 @@ This solution allows users to get notified via email through a verification acti
 With this solution, users will receive email notifications when automations are paused, and they can access a cloud page to view the list of paused automations. This helps keep users informed about the status of their automations and enables them to take appropriate action in a timely manner.
 
 
-### Automation
+### Automation:
 This is how it looks like in the automation:
 ![image](https://github.com/solariimeow/paused-automations-monitoring/assets/45225495/fb254ed9-4c7d-44e8-aa4d-1adcec6a8c17)
 
@@ -49,7 +49,7 @@ This is how it looks like in the automation:
     - *flag:* Text(50), Nullable, Default value "1"
     - *(OPTIONAL) Market:* Text(50), Nullable
 
-### Script Activity
+### Script Activity:
 *Optional*: The following script includes a step to clear the target data extension, preventing duplication and overpopulation that could consume unnecessary space in your platform.
 
 ```js
@@ -197,7 +197,7 @@ WHERE
 ```
 To facilitate the manipulation and ordering of the list based on dates instead of strings, it is important to convert the fields ModifiedDate, LastRunTime, and LastSaveDate to the date data type. This conversion ensures that the list can be organized and sorted accurately according to chronological order.
 
-Cloud Page:
+### Cloud Page:
 Create a landing page and add the below code in the page:
 
 ```html
@@ -245,3 +245,6 @@ After completing the necessary configurations and setup, it is essential to sche
 #### References:
 [Retrieve all Automations | SSJS Docs](https://www.ssjsdocs.xyz/automation-studio/automations/retrieve/all.html)
 [Automation | Marketing Cloud APIs and SDKs | Salesforce Developers](https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/automation.html)
+
+#### Credits:
+Developed this solution by yours truly under **Accenture** license.
