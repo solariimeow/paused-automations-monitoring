@@ -3,7 +3,7 @@
 ## Use Case
 Imagine you are working on an automation task that requires pausing at certain points. However, due to distractions or other responsibilities, you forget to reactivate the automation after resuming your tasks. As a result, the automation remains inactive and continues to go unnoticed for an extended period of time. This lack of activity adversely affects the integrity of your data, causing delays and potential errors in your workflow.
 
-## Problem Case
+## Problem Statement
 The challenge arises from the absence of a built-in mechanism or direct feature within Salesforce Marketing Cloud to notify users about paused automations in the business unit or instance. The lack of notification functionality poses a problem as users may not be aware of paused automations and the potential impact on their workflow. Although an unconventional approach is available to receive notifications for paused automations within SFMC, it's important to note that alternative workarounds may exist depending on specific requirements.
 
 ## Solution
